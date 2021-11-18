@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:background="#00376D"
+                android:text="Events"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="100sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="21 february\n Martyrs Day"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_height="80sp" />
+
+
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="2.Art Competition"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#808000"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Competition"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="-3dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="#808000" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="1.Rally"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#FFC300"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="From school authority"
+                        android:background="#FFC300"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+
+                android:gravity="center"
+                android:text="20 march"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="4.Singing Competition"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#581845"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Comprtition"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="-3dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="#581845" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="3.Poetry recitation"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor=" #FF5733"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Competition"
+                        android:background="#FF5733"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="26 march\n independence Day"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_height="80sp" />
+
+
+
+
+
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                 </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="6.Composition\nCompetition"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#479812"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Friendly\nCompetition"
+                        android:background="#479812"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="5. Art Competition"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#DB1021"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+
+                        android:layout_width="80sp"
+                        android:background="#DB1021"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Friendly\nCompetition"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="8.Milad Mahafil"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#800080"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Peace Offering"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="-3dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="#800080" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="7.Poetry recitation"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#0000ff"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Competition"
+                        android:background="#0000ff"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="15 August\n National Mourn Day"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_height="80sp" />
+
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="10.Milad Mahafil"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#483D8B"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Peace Offering"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="-3dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="#483D8B" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="9.Holiday"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#2F4F4F"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Government Holiday"
+                        android:background="#2F4F4F"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="16 December\n Victory Day"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_height="80sp" />
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="12.Composition\nCompetition"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#479812"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Friendly\nCompetition"
+                        android:background="#479812"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="11. Art Competition"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#DB1021"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+
+                        android:layout_width="80sp"
+                        android:background="#DB1021"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Friendly\nCompetition"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:background="#BBBBBB"
+                android:layout_width="match_parent"
+                android:layout_height="280sp">
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:background="#DB1021"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="29dp"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold" >
+
+
+                    <TextView
+                        android:text="14.Milad Mahafil"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#800080"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Peace Offering"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="-3dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="#800080" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="324dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="#FFFF"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="35sp"
+                    android:textStyle="bold">
+
+
+                    <TextView
+                        android:text="13.Poetry recitation"
+                        android:gravity="center"
+                        android:textSize="21sp"
+                        android:textColor="#0000ff"
+                        android:textStyle="bold"
+                        android:layout_width="244sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-1dp"
+                        android:layout_marginBottom="1dp" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:text="Competition"
+                        android:background="#0000ff"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="162dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginBottom="0dp" />
+
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

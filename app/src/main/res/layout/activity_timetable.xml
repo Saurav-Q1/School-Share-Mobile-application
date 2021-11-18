@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimetableActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/takh"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                >
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="Sa"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnSaturday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Saturday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="Su"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnSunday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Sunday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="Mo"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnMonday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Monday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="Tu"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnTuesday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Tuesday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="We"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnWednesday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Wednesday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="Th"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnThursday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Thursday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="-3dp"
+                    android:text="Fr"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:background="#E81123"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:shadowDy="5"
+                    android:shadowDx="5"
+                    android:shadowRadius="10"
+                    android:shadowColor="#090907"
+                    />
+
+
+                <Button
+                    android:id="@+id/btnFriday"
+                    android:layout_width="222dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="-2dp"
+                    android:background="#99025299"
+                    android:shadowColor="#090907"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:text="Friday"
+                    android:textColor="#ffff"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

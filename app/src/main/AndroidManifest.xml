@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolshare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Schoolshare"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".AdmitActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".FridayActivity"
+            android:label="Schedule-Friday" />
+        <activity
+            android:name=".ThursdayActivity"
+            android:label="Schedule-Thursday" />
+        <activity
+            android:name=".WednesdayActivity"
+            android:label="Schedule-Wednesday" />
+        <activity
+            android:name=".TuesdayActivity"
+            android:label="Schedule-Tuesday" />
+        <activity
+            android:name=".MondayActivity"
+            android:label="Schedule-Monday" />
+        <activity
+            android:name=".SundayActivity"
+            android:label="Schedule-Sunday" />
+        <activity
+            android:name=".SaturdayActivity"
+            android:label="Schedule-Saturday" />
+        <activity
+            android:name=".TimetableActivity"
+            android:label="Time table" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="Features" />
+        <activity android:name=".SecondActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="SchoolShare">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
